@@ -16,13 +16,13 @@ $(document).ready(function(){
      });
 
      var typed = new Typed(".typing", {
-        strings:["Web Designer", "Ui/Ux Designer","Front End Developer"],
+        strings:["Web Designer", "UI/UX Designer","Front End Developer"],
          typeSpeed:100,
          backSpeed:60,
          loop:true
      });
      var typed = new Typed(".typing-2", {
-        strings:["Web Designer", "Ui/Ux Designer","Front End Developer"],
+        strings:["Web Designer", "UI/UX Designer","Front End Developer"],
         typeSpeed:100,
         backSpeed:60,
         loop:true

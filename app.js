@@ -22,11 +22,3 @@ window.addEventListener("scroll", ()=>{
   laptop.style.transform = `translateX(calc(635vh - ${offsetY}px))`
   phones[1].style.transform = `translateX(calc(780vh - ${offsetY}px))`
 })
-
-var typed = new Typed(".typing", {
-  strings:["YouTuber", "Desenvolvedor", "Designer", "Freelancer"],
-  typeSpeed:100,
-  backSpeed:60,
-  loop:true
-});
-

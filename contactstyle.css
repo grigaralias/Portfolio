@@ -1,0 +1,163 @@
+.contact-left{
+    flex-basis: 35%;
+
+}
+.contact-right{
+    flex-basis: 60%;
+    
+}
+
+.border{
+    padding: 1rem 3rem 1rem 3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p i{
+    color: #ababab;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.contact-left p i:hover{
+    color: #00804b;
+    transform: translateY(-5px);
+}
+
+.social-icons{
+    margin-top: 30px;
+
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color: #00804b;
+    transform: translateY(-5px);
+}
+.btn.btn2{
+    display: inline-block;
+    background: #ababab;
+    border-radius: 8px;
+    height: 30px;
+    width: 75px;
+    font-size: 15px;
+    cursor: pointer;
+    
+}       
+.contact-right form{
+    width: 100%;
+
+}
+form input,form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px ;
+    margin: 15px 0 ;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+nav .fas{
+    display: none;
+}
+
+*{
+    background: #111;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+#contact {
+    padding: 50px 500px;
+    margin: 20px;
+    border: 2px;
+    color: #ababab;
+    font-family:Sans-serif;
+}
+ul, li {
+    margin: 0;
+    padding: .2rem;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  header {
+    background-color: #111; 
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    display: flex; 
+    justify-content: left; 
+  }
+  
+  nav li {
+    margin-left: 85px;
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: #fff; 
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 15px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline; 
+  }
+  
+  hr {
+    border: 0;
+      height: 1px; 
+      background-color: #ffffff; 
+      margin: 20px 0; 
+  }
+
+  section .sub-title::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 160px;
+    height: 3px;
+    background: #00804b;
+    transform: translateX(-50%);
+}
+
+section .sub-title::after{
+    position: absolute;
+    bottom:-12px;
+    left: 50%;
+    font-size: 20px;
+    background: #000000;
+    color: #00804b;
+    padding: 5px;
+    transform: translateX(-50%);
+}
+
+  .submitbtn{
+    display: inline-block;
+    background:  #00804b;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 7px 18px;
+    margin-top: 7px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    border: none;
+  }
